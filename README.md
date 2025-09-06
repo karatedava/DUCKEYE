@@ -1,2 +1,2 @@
 # DUCKEYE
-Toolbox for automatized 
+Toolbox for automatized monitoring of duckweed cultivation
