@@ -103,13 +103,13 @@ python ducksee.py --name experiment1 --input my_images --device CUDA --eyes WC
 ### Biomass Regressor
 The biomass regressor estimates duckweed biomass from images.  
 <p align="center">
-  <img src="./page_graphics/SCHEME_BM.png" alt="Biomass Regressor Scheme" width="200" height="200">
+  <img src="./page_graphics/SCHEME_BM.png" alt="Biomass Regressor Scheme" width="500" height="500">
 </p>
 
 ### Density Estimator
 The density estimator analyzes water coverage in duckweed cultivation.  
 <p align="center">
-  <img src="./page_graphics/SCHEME_DE.png" alt="Density Estimator Scheme" width="200" height="200">
+  <img src="./page_graphics/SCHEME_DE.png" alt="Density Estimator Scheme" width="800" height="400">
 </p>
 
 ---
