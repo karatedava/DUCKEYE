@@ -43,17 +43,24 @@ DUCKEYE processes images of duckweed cultivation setups to estimate key paramete
 
 To set up DUCKEYE locally, follow these steps:
 
-1. **Install Miniconda**  
+1. **Clone the Repository**  
+   Clone the DUCKEYE repository from GitHub to your local machine:
+   ```bash
+   git clone https://github.com/karatedava/DUCKEYE.git
+   cd duckeye
+  ```
+
+2. **Install Miniconda**  
    Download and install Miniconda by following the [official Miniconda installation guide](https://docs.conda.io/en/latest/miniconda.html).
 
-2. **Create a New Conda Environment**  
+3. **Create a New Conda Environment**  
    Create a Python 3.12 environment and activate it:
    ```bash
    conda create -n duckeye python=3.12
    conda activate duckeye
    ```
 
-3. **Install Dependencies**  
+4. **Install Dependencies**  
    Navigate to the project directory and install the required packages:
    ```bash
    pip install -r requirements.txt
@@ -109,7 +116,7 @@ The biomass regressor estimates duckweed biomass from images.
 ### Density Estimator
 The density estimator analyzes water coverage in duckweed cultivation.  
 <p align="center">
-  <img src="./page_graphics/SCHEME_DE.png" alt="Density Estimator Scheme" width="800" height="400">
+  <img src="./page_graphics/SCHEME_DE.png" alt="Density Estimator Scheme" width="700" height="400">
 </p>
 
 ---
