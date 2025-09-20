@@ -48,7 +48,7 @@ To set up DUCKEYE locally, follow these steps:
    ```bash
    git clone https://github.com/karatedava/DUCKEYE.git
    cd duckeye
-  ```
+   ```
 
 2. **Install Miniconda**  
    Download and install Miniconda by following the [official Miniconda installation guide](https://docs.conda.io/en/latest/miniconda.html).
