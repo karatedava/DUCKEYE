@@ -51,7 +51,7 @@ To set up DUCKEYE locally, follow these steps:
    ```
 
 2. **Install Miniconda**  
-   Download and install Miniconda by following the [official Miniconda installation guide](https://docs.conda.io/en/latest/miniconda.html).
+   Download and install Miniconda by following the [official Miniconda installation guide](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions).
 
 3. **Create a New Conda Environment**  
    Create a Python 3.12 environment and activate it:
