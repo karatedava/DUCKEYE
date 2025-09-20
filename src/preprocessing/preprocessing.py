@@ -2,9 +2,9 @@ import os
 import numpy as np
 import cv2
 
-from src.config import INPUT_PATH, OUTPUT_PATH, TARGET_SIZE
+from src.config import INPUT_PATH, PREPROCESSED_PATH, TARGET_SIZE
 
-def resize(crop=False) -> None:
+def resize(dirname:str, crop=False) -> None:
 
     """
     resize image to desired size
@@ -17,12 +17,13 @@ def resize(crop=False) -> None:
 
     files = []
 
-    if not os.path.exists(OUTPUT_PATH):
-        os.makedirs(OUTPUT_PATH)
-    
-    for file in os.listdir(INPUT_PATH):
+    if not os.path.exists(PREPROCESSED_PATH):
+        os.makedirs(PREPROCESSED_PATH)
+    input_dir = INPUT_PATH / dirname
+    for file in os.listdir(input_dir):
+        print(file)
         files.append(file)
-        full_path = os.path.join(INPUT_PATH, file)
+        full_path = os.path.join(input_dir, file)
         img = cv2.imread(full_path)
         if img is None:
             continue  # Skip if image loading fails
@@ -37,7 +38,7 @@ def resize(crop=False) -> None:
             img = _crop_single_tray_(img, show=False)
         
         resized = cv2.resize(img, TARGET_SIZE)
-        cv2.imwrite(f'{OUTPUT_PATH}/{file}_resized.jpg', resized)
+        cv2.imwrite(f'{PREPROCESSED_PATH}/{file}_resized.jpg', resized)
 
 def _crop_single_tray_(img):
     
