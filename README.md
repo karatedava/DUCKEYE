@@ -27,13 +27,15 @@
 
 ## Overview
 
-DUCKEYE is a versatile toolbox tailored for monitoring duckweed cultivation. It leverages machine learning to analyze images of duckweed, providing insights into water coverage and biomass prediction. The system is lightweight, requiring only a camera capable of sending images to a processing unit (e.g., a small laptop). For detailed hardware requirements, see the [Hardware Setup](#hardware-setup) section.
+DUCKEYE is a versatile toolbox tailored for monitoring duckweed cultivation. It leverages machine learning to analyze images of duckweed trays, estimating water coverage and biomass amount. The system is lightweight, requiring only a camera capable of sending images to a processing unit (e.g., a small laptop). For detailed hardware requirements, see the [Hardware Setup](#hardware-setup) section.
 
 ---
 
 ## How It Works
 
-DUCKEYE processes images of duckweed cultivation setups to estimate key parameters like water coverage and biomass. Using machine learning models, it analyzes raw images and generates detailed outputs stored in the `outputs` directory. The toolbox supports both local execution and a user-friendly web application, making it accessible for testing on mobile devices with cameras.
+DUCKEYE can process raw images (even taken by your phone) of any size. All images get resized to standardized input size for given processing tools. 
+
+DUCKEYE processes images of duckweed cultivation trays t. Using machine learning models, it analyzes raw images and generates detailed outputs stored in the `outputs` directory. The toolbox supports both local execution and a user-friendly web application, making it accessible for testing on mobile devices with cameras.
 
 ---
 
@@ -95,7 +97,7 @@ Customize your analysis with the following parameters:
 |-------------|-----------------------------------------------------------------------------|-------------------------------------|
 | `--name`    | Signature of the run (used to label output data)                            | User-defined string                 |
 | `--input`   | Name of the folder in `data/raw_images` containing raw images               | Folder name (e.g., `your_folder_name`) |
-| `--device`  | Hardware for computation                                                   | `CPU` (default), `CUDA` (NVIDIA GPU), `MPS` (Mac) |
+| `--device`  | Hardware for computation                                                   | `CPU` (default), `CUDA` (NVIDIA GPU), `MPS` (Mac GPU) |
 | `--eyes`    | Machine learning model to use                                              | `ALL` (default), `WC` (water coverage), `BP` (biomass prediction) |
 
 Example command with all parameters:
@@ -133,4 +135,4 @@ For detailed hardware recommendations, refer to the [iGEM BRNO team cultivator p
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
