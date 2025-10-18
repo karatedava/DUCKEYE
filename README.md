@@ -33,9 +33,11 @@ DUCKEYE is a versatile toolbox tailored for monitoring duckweed cultivation. It 
 
 ## How It Works
 
-DUCKEYE can process raw images (even taken by your phone) of any size. All images get resized to standardized input size for given processing tools. 
+DUCKEYE can process raw images (even taken by your phone) of any size. All images get resized to standardized input size for given processing tools.
 
-DUCKEYE processes images of duckweed cultivation trays t. Using machine learning models, it analyzes raw images and generates detailed outputs stored in the `outputs` directory. The toolbox supports both local execution and a user-friendly web application, making it accessible for testing on mobile devices with cameras.
+Images are fed into 3 different processing pipelines
+- water coverage estimator --> calculates amout of duckweed compared to the image (cultivation tray) size
+- water coverage segmentator --> approches the previous problem via Machine learning lens, providing better results on photos with relfections or when tray color is similar to duckweed
 
 ---
 
