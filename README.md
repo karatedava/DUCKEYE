@@ -1,6 +1,6 @@
-# DUCKEYE 🌱
+# DUCKEYE 👁️🌱👁️
 
-**DUCKEYE** is a powerful monitoring toolbox for duckweed cultivation, developed by the [iGEM BRNO team](https://2025.igem.wiki/brno-czech-republic/) for the [iGEM competition](https://competition.igem.org). Designed for simplicity and scalability, DUCKEYE enables researchers and cultivators to monitor duckweed growth using minimal hardware—just a decent camera and a basic processing unit like a laptop. For cultivation design tools, check out our companion project, [DUCKTOOLS](https://github.com/karatedava/DUCKTOOLS).
+**DUCKEYE** is a powerful monitoring toolbox for duckweed cultivation, developed by the [iGEM BRNO team](https://2025.igem.wiki/brno-czech-republic/) for the [iGEM competition](https://competition.igem.org). Designed for simplicity and scalability, DUCKEYE enables researchers or farmers to monitor duckweed growth using minimal hardware—just a decent camera and a basic processing unit like a laptop. For cultivation design, check out our companion project, [DUCKTOOLS](https://github.com/karatedava/DUCKTOOLS).
 
 <p align="center">
   <img src="./page_graphics/LOGO.png" alt="DUCKEYE Logo" width="150" height="150">
@@ -131,7 +131,7 @@ DUCKEYE requires minimal hardware:
 - **Camera**: Any camera capable of capturing images and transferring them to a processing unit (e.g., via USB, Wi-Fi, or cloud storage).
 - **Processing Unit**: A small laptop or equivalent with at least 4GB RAM and a modern CPU. For faster processing, a CUDA-compatible NVIDIA GPU or Apple Silicon (MPS) is supported but not required.
 
-For detailed hardware recommendations, refer to the [iGEM BRNO team cultivator page](https://2025.igem.wiki/brno-czech-republic/hardware).
+For detailed hardware setup, refer to the [iGEM BRNO team cultivator page](https://2025.igem.wiki/brno-czech-republic/hardware).
 
 ---
 
