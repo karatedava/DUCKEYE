@@ -73,7 +73,7 @@ To set up DUCKEYE locally, follow these steps:
 ### Option 2: Web Application
 
 No installation required! Try DUCKEYE's full functionality through our web application, featuring a user-friendly interface optimized for mobile devices with cameras.  
-👉 **Access the web app**: [Web App Link Here](https://unblamable-josephine-advertently.ngrok-free.dev).
+👉 **Access the web app**: [Web App Link Here](https://unblamable-josephine-advertently.ngrok-free.dev). Due to minimal usage, the web implementation will be provided only on demand, if you are insterested, please reach me via email: 'karatedava@seznam.cz' with subject 'duckeye'. Alternativelly, you may run the web app locally, more on that [here](https://github.com/karatedava/DUCKEYE_WEB)
 
 ---
 
